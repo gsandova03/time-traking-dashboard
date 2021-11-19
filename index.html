@@ -5,76 +5,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/styles.css">
   <title>Frontend Mentor | Time tracking dashboard</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
-
-  Report for
-  Jeremy Robson
-
-  Daily
-  Weekly
-  Monthly
-
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
-
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
+  <div class="container">
+    <div class="report-card card">
+      <div class="card-user">
+        <figure>
+          <img src="./images/image-jeremy.png" alt="user-img">
+        </figure>
+        <div>
+          <p>Report for</p>
+          <h3>Jeremy Robson</h3>
+        </div>
+      </div>
+      <div class="card-buttons">
+        <button>Daily</button>
+        <button>Weekly</button>
+        <button>Monthly</button>
+      </div>
+    </div>
+    <div class="card work">
+      <img class="background-svg" src="./images/icon-work.svg"/>
+      <div class="card-info">
+        Work
+        5hrs 
+        Previous - 7hrs 
+        32hrs 
+        Previous - 36hrs 
+        103hrs 
+        Previous - 128hrs 
+      </div>
+    </div>
+    <div class="card">
+      Play
+      1hr 
+      Previous - 2hrs 
+      10hrs 
+      Previous - 8hrs 
+      23hrs 
+      Previous - 29hrs 
+    </div>
+    <div class="card">
+      Study
+      0hrs 
+      Previous - 1hr 
+      4hrs 
+      Previous - 7hrs 
+      13hrs 
+      Previous - 19hrs 
+    </div>
+    <div class="card">
+      Exercise
+      1hr 
+      Previous - 1hr 
+      4hrs 
+      Previous - 5hrs 
+      11hrs 
+      Previous - 18hrs 
+    </div>
+    <div class="card">
+      Social
+      1hr 
+      Previous - 3hrs 
+      5hrs 
+      Previous - 10hrs 
+      21hrs 
+      Previous - 23hrs 
+    </div>
+    <div class="card">
+      Self Care
+      0hrs 
+      Previous - 1hr
+      2hrs 
+      Previous - 2hrs
+      7hrs 
+      Previous - 11hrs monthly
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Gabriel Sandoval</a>.
   </div>
 </body>
 </html>
